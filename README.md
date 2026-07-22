@@ -13,24 +13,23 @@ It takes user input from an HTML form and processes the request using a GenericS
 - Eclipse IDE
 
 ## Project Structure
+
+```
 02-GenericServlet
 │
 ├── src
-│ └── main
-│ ├── java
-│ │ └── (Servlet Java Classes)
-│ │
-│ └── webapp
-│ ├── index.html
-│ └── WEB-INF
-│ └── web.xml
-│
-├── target
-│ └── Generated build files
+│   └── main
+│       ├── java
+│       │   └── Servlet Java Classes
+│       │
+│       └── webapp
+│           ├── index.html
+│           └── WEB-INF
+│               └── web.xml
 │
 └── pom.xml
-└── Maven dependencies configuration
-
+    └── Maven dependencies configuration
+```
 ## How to Run the Project
 
 1. Open the project in Eclipse IDE.
